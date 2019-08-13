@@ -1,0 +1,109 @@
+body{
+  background-image: url("../images/bg.png");
+}
+
+.site{
+  font-family: 'Holtwood One SC', serif;
+}
+
+.text-logo{
+  font-family: 'Holtwood One SC', serif;
+  text-shadow: 2px 2px #ffd301;
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 50px;
+  color: #e7480f;
+}
+
+//glyphicon qui se trouvent dans la class text-logo
+.text-logo .glyphicon{
+  color: #ffd301;
+  text-shadow: 0px 0px #ffd301;
+}
+
+.nav{
+  margin-bottom: 40px;
+}
+
+.thumbnail img{
+  background-color: #ffd301;
+}
+
+.price{
+  background-color: #5cb85c;
+  width:60px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  right: 6px;
+}
+
+.caption h4{
+  color:#e7480f;
+  font-size: 18px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+  background: #e7480f;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+  color:#e7480f;
+  background: #eee;
+}
+
+.nav>li>a{
+  color: #eee;
+  font-size: 18px;
+  text-shadow: 2px 2px #333;
+}
+
+.btn-order{
+  width: 100%;
+  background: #e7480f;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  text-decoration: none;
+  text-shadow: 2px 2px #333;
+}
+
+.btn-order:hover, .btn-order:focus{
+  color:#fff;
+  background-color: #c13c0d;
+}
+
+
+
+/**ADMIN***/
+.admin{
+  background: #fff;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+/**ADMIN***/
+ul{
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+}
+
+li{
+  margin-top: 30px;
+}
+
+.btn-oui{
+  background: #e7480f ;
+  color: #fff;
+}
+
+.btn-admin{
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50%;
+  margin-right: 50%;
+  overflow: visible;
+}
